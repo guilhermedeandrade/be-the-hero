@@ -68,7 +68,7 @@ function Register() {
   const history = useHistory()
 
   const handleRegister = useCallback(
-    async (event) => {
+    async event => {
       event.preventDefault()
 
       try {
@@ -107,7 +107,7 @@ function Register() {
             type="text"
             placeholder="Nome da ONG"
             value={state.name}
-            onChange={(e) =>
+            onChange={e =>
               dispatch({ type: 'SET_NAME', payload: e.target.value })
             }
           />
@@ -115,7 +115,7 @@ function Register() {
             type="email"
             placeholder="E-mail"
             value={state.email}
-            onChange={(e) =>
+            onChange={e =>
               dispatch({ type: 'SET_EMAIL', payload: e.target.value })
             }
           />
@@ -123,7 +123,7 @@ function Register() {
             type="text"
             placeholder="WhatsApp"
             value={state.whatsapp}
-            onChange={(e) =>
+            onChange={e =>
               dispatch({ type: 'SET_WHATSAPP', payload: e.target.value })
             }
           />
@@ -133,7 +133,7 @@ function Register() {
               type="text"
               placeholder="Cidade"
               value={state.city}
-              onChange={(e) =>
+              onChange={e =>
                 dispatch({ type: 'SET_CITY', payload: e.target.value })
               }
             />
@@ -142,7 +142,7 @@ function Register() {
               placeholder="UF"
               value={state.uf}
               style={{ width: 80 }}
-              onChange={(e) =>
+              onChange={e =>
                 dispatch({ type: 'SET_UF', payload: e.target.value })
               }
             />
