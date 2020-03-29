@@ -1,5 +1,7 @@
 # Semana OmniStack 11 - Be The Hero
 
+![This is a preview of the web app](be-the-hero.jpg?raw=true)
+
 ## About
 
 This repository is a slightly modified version of what was presented during the [Semana OmniStack 11](https://rocketseat.com.br/week/inscricao/11.0).
@@ -14,7 +16,7 @@ Technologies used:
 - React Native
 - Jest
 
-## Next steps:
+## Next steps
 
 - Prepare a build script for the server
 - Deploy the server
