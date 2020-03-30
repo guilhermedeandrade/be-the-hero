@@ -18,9 +18,10 @@ Technologies used:
 
 ## Next steps
 
-- Prepare a build script for the server
-- Deploy the server
-- Deploy the web application
+- [x] Prepare a build script for the server
+- [ ] Create a production database
+- [ ] Deploy the server
+- [ ] Deploy the web application
 
 ## Instructions
 
